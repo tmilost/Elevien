@@ -5,7 +5,7 @@
         <div class="wrapper">
             <div class="wrapper-left">
                 <div class="logo">
-                    <img src="/Logo.svg" alt="Logo" />
+                    <img src="../assets/Logo.svg" alt="Logo" />
                 </div>
                 <div class="text-competitation-name">
                     <p>
@@ -19,9 +19,9 @@
                 </div>
             </div>
             <div class="wrapper-right">
-                <img src="/JudgeAdminAvatar.svg" alt="Judge Admin Avatar" />
+                <img src="../assets/JudgeAdminAvatar.svg" alt="Judge Admin Avatar" />
                 <p>Nikola Kavezić</p>
-                <img src="/Arrow-down.svg" />
+                <img src="../assets/Arrow-down.svg" />
             </div>
         </div>
     </nav>

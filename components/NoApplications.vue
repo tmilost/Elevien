@@ -1,7 +1,7 @@
 <template>
     <div class="no-applications">
         <div class="no-applications-center">
-            <img src="/Ghost.svg" alt="Ghost" />
+            <img src="../assets/Ghost.svg" alt="Ghost" />
             <div class="no-applications-center-text">
                 <p>No applications yet</p>
                 <p>List of your requests will appear here when you add gymnasts.</p>

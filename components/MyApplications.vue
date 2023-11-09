@@ -11,7 +11,7 @@
                     <p>New application</p>
                 </button>
                 <div class="open">
-                    <img src="/Ellipse.svg" alt="Ellipse" />
+                    <img src="../assets/Ellipse.svg" alt="Ellipse" />
                     <p>Open</p>
                 </div>
             </div>

@@ -83,7 +83,7 @@ const phoneCode = computed(() => {
     <div class="modal-overlay">
         <div class="modal">
             <div class="x-close-button" @click="$emit('closeModal')">
-                <img src="/close.svg" alt="X">
+                <img src="../assets/close.svg" alt="X">
             </div>
             <div class="headline">
                 <p>Apply gymnast</p>

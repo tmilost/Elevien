@@ -29,7 +29,7 @@ function openAndCloseDropDown(id) {
         <div class="search-bar">
 
             <div class="search-input">
-                <img class="search-input-image" src="/Search.svg" />
+                <img class="search-input-image" src="../assets/Search.svg" />
                 <input class="search-input-iner" placeholder="Search gymnasts" />
             </div>
 
@@ -96,9 +96,9 @@ function openAndCloseDropDown(id) {
                     </div>
                 </div>
                 <div class="drop-arow">
-                    <img v-if="curentOpenDropDownId != gymnastsArray.indexOf(gymnast)" src="/Arrow-down.svg"
+                    <img v-if="curentOpenDropDownId != gymnastsArray.indexOf(gymnast)" src="../assets/Arrow-down.svg"
                         alt="arrow down" @click="openAndCloseDropDown(gymnastsArray.indexOf(gymnast))">
-                    <img v-else src="/Arrow-up.svg" alt="arrow up" @click="openAndCloseDropDown(999)">
+                    <img v-else src="../assets/Arrow-up.svg" alt="arrow up" @click="openAndCloseDropDown(999)">
                 </div>
 
             </div>
