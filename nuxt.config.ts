@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   ],
   modules: ['@nuxtjs/google-fonts'],
   app: {
-    baseURL: ''
+    baseURL: '',
+    buildAssetsDir: 'assets'
   },
 })
