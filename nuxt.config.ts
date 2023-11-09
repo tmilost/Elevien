@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   ],
   modules: ['@nuxtjs/google-fonts'],
   app: {
-    baseURL: '',
+    baseURL: '/Elevien/',
     buildAssetsDir: 'assets'
   },
   vite: {
@@ -16,5 +16,5 @@ export default defineNuxtConfig({
         allow: ['..'],
       }
     }
-}
+},
 })
