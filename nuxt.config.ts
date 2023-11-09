@@ -4,5 +4,8 @@ export default defineNuxtConfig({
   plugins: [
     { src: "@/plugins/vueflags.js" }
   ],
-  modules: ['@nuxtjs/google-fonts']
+  modules: ['@nuxtjs/google-fonts'],
+  app: {
+    baseURL: ''
+  },
 })
